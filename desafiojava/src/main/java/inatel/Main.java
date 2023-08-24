@@ -143,6 +143,11 @@ public class Main {
 
                 case 4:
 
+                    if (gerenciador.testEmptyArray()) {
+                        System.out.println("Não é possível realizar a ação!" + "\n");
+                        break;
+                    }
+
                     try {
 
                         System.out.println("Exibindo a lista de filmes... " + "\n");
